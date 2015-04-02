@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+		<meta name="viewport" content="width=device-width">
+		<title>Leaflet</title>
+		<link href="css/styles.css" rel="stylesheet">
+		 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	</head>
+	<body>
+		<div id = 'wrapper'>
+			<div id = 'map'>
+			</div>
+		<div id = 'menu'>
+			<h1>Find some spots</h1>
+			<div class="option active" data-which="columbia">Columbia</div>
+			<div class="option" data-which="nyu">NYU</div>
+			<div class="option" data-which="ccny">CCNY</div>
+		</div>
+		<div id = 'geo'>
+			<img src="img/23398.png" class='image'>
+			<img src="img/loading_spinner.gif" class="load">
+		</div>
+		 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/main.js"></script>
+	</body>
+</html>
